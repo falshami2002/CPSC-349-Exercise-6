@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CPSC-349-Exercise-6/static/css/main.2350ffb4.css",
+    "main.js": "/CPSC-349-Exercise-6/static/js/main.2ccb0d01.js",
+    "index.html": "/CPSC-349-Exercise-6/index.html",
+    "main.2350ffb4.css.map": "/CPSC-349-Exercise-6/static/css/main.2350ffb4.css.map",
+    "main.2ccb0d01.js.map": "/CPSC-349-Exercise-6/static/js/main.2ccb0d01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2350ffb4.css",
+    "static/js/main.2ccb0d01.js"
+  ]
+}
