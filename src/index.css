@@ -52,6 +52,7 @@ ul {
 }
 
 .game {
+  padding-left: 20px;
   display: flex;
   flex-direction: row;
 }
@@ -60,4 +61,78 @@ ul {
   margin-left: 20px;
 }
 
+.calculator {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  background-color: rgb(175, 175, 175);
+}
 
+.display-container {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  width: 90%;
+  height: 65%;
+  background: linear-gradient(to bottom, rgb(228, 228, 228) 50%, rgb(211, 211, 211) 50%);
+  border-radius: 5px;
+  box-shadow: -1px 1px white, inset 0px 0px 15px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display p {
+  width: 90%;
+  font-size: 30px;
+  text-align: right;
+} 
+
+.bottom-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  width: 95%;
+  height: 95%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.btn {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(to bottom, rgb(228, 228, 228) 50%, rgb(211, 211, 211) 50%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  box-shadow: inset -2px 2px rgb(233, 233, 233), 0 0 3px black;
+  cursor: pointer;
+}
+
+.c-btn {
+  background: linear-gradient(to bottom, rgb(255, 29, 29) 50%,rgb(226, 28, 28) 50%);
+  color: white;
+}
+
+.func-btn {
+  background: linear-gradient(to bottom, rgb(44, 44, 44) 50%, rgb(19, 19, 19) 50%);
+  color: white;
+}
